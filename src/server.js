@@ -28,8 +28,9 @@ app.use(express.json())
 app.use('/api',routerVeterinarios)
 app.use('/api',routerPacientes)
 app.use('/api',routertratamiento)
-app.use('/loaderio-77108048040110615f0c4d545f624fe9/', (req, res) => {
-    res.send('loaderio verification token');
+// Ruta para la verificación de loader.io
+app.use('/loaderio-77108048040110615f0c4d545f624fe9.txt', (req, res) => {
+    res.send('loaderio-77108048040110615f0c4d545f624fe9');
   });
 
 // Manejo de una ruta que no sea encontrada
