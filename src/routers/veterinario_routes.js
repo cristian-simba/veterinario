@@ -21,11 +21,11 @@ const router = Router()
 //publicas 
 router.post("/login", login);
 router.post("/registro",validacionVeterinario, registro);
-router.get("/confirmar/loaderio-b69ff1f6cfefb3e837a5a434c126b3c3", confirmEmail);
+router.get("/confirmar/loaderio-77108048040110615f0c4d545f624fe9", confirmEmail);
 router.get("/veterinarios", listarVeterinarios);
 router.get("/recuperar-password", recuperarPassword);
-router.get("/recuperar-password/loaderio-b69ff1f6cfefb3e837a5a434c126b3c3", comprobarTokenPasword);
-router.post("/nuevo-password/loaderio-b69ff1f6cfefb3e837a5a434c126b3c3", nuevoPassword);
+router.get("/recuperar-password/loaderio-77108048040110615f0c4d545f624fe9", comprobarTokenPasword);
+router.post("/nuevo-password/loaderio-77108048040110615f0c4d545f624fe9", nuevoPassword);
 
 
 //privadas
