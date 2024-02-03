@@ -28,7 +28,7 @@ app.use(express.json())
 app.use('/api',routerVeterinarios)
 app.use('/api',routerPacientes)
 app.use('/api',routertratamiento)
-app.use('loaderio-77108048040110615f0c4d545f624fe9/')
+app.use('/loaderio-77108048040110615f0c4d545f624fe9/')
 // Manejo de una ruta que no sea encontrada
 app.use((req,res)=>res.status(404).send("Endpoint no encontrado - 404"))
 
