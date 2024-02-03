@@ -29,10 +29,9 @@ app.use('/api',routerVeterinarios)
 app.use('/api',routerPacientes)
 app.use('/api',routertratamiento)
 app.use('/loaderio-77108048040110615f0c4d545f624fe9/', (req, res) => {
-    // Manejar la solicitud de loader.io si es necesario
     res.send('loaderio verification token');
   });
-  
+
 // Manejo de una ruta que no sea encontrada
 app.use((req,res)=>res.status(404).send("Endpoint no encontrado - 404"))
 
